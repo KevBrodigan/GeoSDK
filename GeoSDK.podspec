@@ -25,10 +25,13 @@ Pod::Spec.new do |s|
   s.author           = { 'Kevin Brodigan' => 'kevin.brodigan@swrve.com' }
   s.source           = { :git => 'https://github.com/KevBrodigan/GeoSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.ios.vendored_frameworks = 'GeoSDK.framework'
+  s.source            = { :http => 'https://github.com/KevBrodigan/GeoSDK/releases/download/0.1.0/GeoSDK-v0.1.0.framework.zip' }
+  s.exclude_files = "GeoSDK/Classes/Exclude"
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'GeoSDK/Classes/**/*'
+  #s.source_files = 'GeoSDK/Classes/**/*'
 
   s.dependency 'SwrveSDKCommon', '5.2.0'
   
