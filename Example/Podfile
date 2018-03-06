@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GeoSDK_Example' do
+  pod 'GeoSDK', :path => '../'
+
+  target 'GeoSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

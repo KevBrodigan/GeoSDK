@@ -1,0 +1,22 @@
+{
+  "name": "GeoSDK",
+  "version": "0.1.0",
+  "summary": "A short description of GeoSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kevin Brodigan/GeoSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kevin Brodigan": "kevin.brodigan@swrve.com"
+  },
+  "source": {
+    "git": "https://github.com/Kevin Brodigan/GeoSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GeoSDK/Classes/**/*"
+}

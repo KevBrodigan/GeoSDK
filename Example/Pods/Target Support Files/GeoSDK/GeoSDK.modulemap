@@ -1,0 +1,6 @@
+framework module GeoSDK {
+  umbrella header "GeoSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

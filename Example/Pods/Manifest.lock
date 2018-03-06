@@ -1,0 +1,16 @@
+PODS:
+  - GeoSDK (0.1.0)
+
+DEPENDENCIES:
+  - GeoSDK (from `../`)
+
+EXTERNAL SOURCES:
+  GeoSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GeoSDK: ea405f10fadf3d1373bfb94de2b9369b47385589
+
+PODFILE CHECKSUM: 69aef3ddbfef8ff64e308672b3fbd429e2fad69b
+
+COCOAPODS: 1.4.0

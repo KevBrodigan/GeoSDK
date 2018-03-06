@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188765B2BCB0F070F62651B8E78F02FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2BB1675B5BEF02448DFDC8E05053D392 /* Pods-GeoSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D59E183D5207D20082CF7AA91B7312 /* Pods-GeoSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CD9EF7D454552E302F8D29A3F461F1 /* GeoSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3A56DEEFA1E4F63B8371A276CA1FFC /* GeoSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A105345971C958BAEE1A262942B99A46 /* Pods-GeoSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62C6F2976D420B7E01110730A0D5B81 /* Pods-GeoSDK_Example-dummy.m */; };
+		B506B082153D255D43EFB97FDFF4998E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C2AF98EB35D647E9392E1F8DCCAB562E /* Pods-GeoSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14951E68C8992828E67C46A8B1CA162D /* Pods-GeoSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C620F2B9854A0672F24DA653AB289E /* GeoSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19A3E1107336C12C74F15524D93A3250 /* GeoSDK-dummy.m */; };
+		C8E4B432842843A1F4D8283D997BD7F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FBC014693997F18F0B21C1CBE2FD1DA2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 72123823F1E6199FCC68F67BED08D42D /* ReplaceMe.m */; };
+		FDAAA01CAA51CCD7EE627C29842904A8 /* Pods-GeoSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D627F0EFC173CCE92593B87DB6EBAFB /* Pods-GeoSDK_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD39DC60D9011EF994CFD65D1ED8EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38D455A1CBDFAE6014AA828828CDFF6F;
+			remoteInfo = GeoSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02413E5F8C49AEA66D4F6E64A4902A7A /* Pods-GeoSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		09B5FC0EC432137F4AA34164EA29C11E /* GeoSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeoSDK.xcconfig; sourceTree = "<group>"; };
+		1210048CA9E7C7E21FE74B40DEB90591 /* GeoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeoSDK.framework; path = GeoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1319C3EB180640C3853B3C74974E8CF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14951E68C8992828E67C46A8B1CA162D /* Pods-GeoSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		17B03F1B3B5141BB87492F1EAEAA9C35 /* Pods-GeoSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		19A3E1107336C12C74F15524D93A3250 /* GeoSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeoSDK-dummy.m"; sourceTree = "<group>"; };
+		3577AD560988FFF7BD3B28C0A8EA28DD /* Pods-GeoSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		359F8DCE975A3CF4E591886F7DA7E800 /* Pods-GeoSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4255FAB5FD183596AA477C8ABD2FCD7F /* GeoSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GeoSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		45906F9EC35ACD0FC2C2F4FD2746EE26 /* Pods-GeoSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		614E359AFF57EE934789BC7B31153C11 /* Pods-GeoSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoSDK_Example.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68D59E183D5207D20082CF7AA91B7312 /* Pods-GeoSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E0DD98B17BB8656F0EC08D3A9CAA3CE /* Pods-GeoSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeoSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		72123823F1E6199FCC68F67BED08D42D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GeoSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7B187366BFB5045F55CFB2C087FA9932 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8B6F4D9C1065189CCD9079AB93004F31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D627F0EFC173CCE92593B87DB6EBAFB /* Pods-GeoSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3C39ED2FCB82E0D4047D62219C6FA08 /* GeoSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoSDK-prefix.pch"; sourceTree = "<group>"; };
+		A4B21DFCE44F9BEEC5B25827A90F363C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B200DD4559869CCFFB3AC3A079EDA01B /* Pods-GeoSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1679F4365FA935C4315EDC2B85B75D5 /* Pods_GeoSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoSDK_Tests.framework; path = "Pods-GeoSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62C6F2976D420B7E01110730A0D5B81 /* Pods-GeoSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		D31C888C12400F3CDDBF00693041CF15 /* Pods-GeoSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		D88D4B67ED0A5DBDF64597DA900905BB /* Pods-GeoSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		DBCAAF5EE86574D85AF977D674ADE3EF /* Pods-GeoSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE3A56DEEFA1E4F63B8371A276CA1FFC /* GeoSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeoSDK-umbrella.h"; sourceTree = "<group>"; };
+		DF296A531A04FCF11B4C7B2E4C61A497 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED61E62A22F14F4B745D0EB127C43EBB /* Pods-GeoSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EE9AE86B6875E19A45FD7491585A43A1 /* Pods_GeoSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoSDK_Example.framework; path = "Pods-GeoSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F426948C97F358C69964E64837CAA443 /* GeoSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GeoSDK.modulemap; sourceTree = "<group>"; };
+		FAFBED394FB323EC8E0321AD43C46B6B /* Pods-GeoSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB5D278CE9156BB6558D5F11238FE1E6 /* Pods-GeoSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99F12D490F72D8A1EC3B04B44FC3BDAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E4B432842843A1F4D8283D997BD7F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C8A43AD3AF7A60B3E61ADC55BE7725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B506B082153D255D43EFB97FDFF4998E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C989D6BEBDD022333C5D29761EB228D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188765B2BCB0F070F62651B8E78F02FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C04FE393F2B04B852B8B410C1AA270 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4255FAB5FD183596AA477C8ABD2FCD7F /* GeoSDK.podspec */,
+				A4B21DFCE44F9BEEC5B25827A90F363C /* LICENSE */,
+				7B187366BFB5045F55CFB2C087FA9932 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AEF45095313BE49238279CD0C715DCA0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D6B80430FE3471B73D11943C21C8A972 /* Products */,
+				8C3608A2866B87123DE774A539389021 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB7BA23B6E34734B93E29EF62470055 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F426948C97F358C69964E64837CAA443 /* GeoSDK.modulemap */,
+				09B5FC0EC432137F4AA34164EA29C11E /* GeoSDK.xcconfig */,
+				19A3E1107336C12C74F15524D93A3250 /* GeoSDK-dummy.m */,
+				A3C39ED2FCB82E0D4047D62219C6FA08 /* GeoSDK-prefix.pch */,
+				DE3A56DEEFA1E4F63B8371A276CA1FFC /* GeoSDK-umbrella.h */,
+				DF296A531A04FCF11B4C7B2E4C61A497 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GeoSDK";
+			sourceTree = "<group>";
+		};
+		8C3608A2866B87123DE774A539389021 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91639931C98A9D8D54A61544C9DE9EDB /* Pods-GeoSDK_Example */,
+				C059FC4A33563CF71A5DD471396B2057 /* Pods-GeoSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		91639931C98A9D8D54A61544C9DE9EDB /* Pods-GeoSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8B6F4D9C1065189CCD9079AB93004F31 /* Info.plist */,
+				614E359AFF57EE934789BC7B31153C11 /* Pods-GeoSDK_Example.modulemap */,
+				DBCAAF5EE86574D85AF977D674ADE3EF /* Pods-GeoSDK_Example-acknowledgements.markdown */,
+				45906F9EC35ACD0FC2C2F4FD2746EE26 /* Pods-GeoSDK_Example-acknowledgements.plist */,
+				C62C6F2976D420B7E01110730A0D5B81 /* Pods-GeoSDK_Example-dummy.m */,
+				3577AD560988FFF7BD3B28C0A8EA28DD /* Pods-GeoSDK_Example-frameworks.sh */,
+				D31C888C12400F3CDDBF00693041CF15 /* Pods-GeoSDK_Example-resources.sh */,
+				68D59E183D5207D20082CF7AA91B7312 /* Pods-GeoSDK_Example-umbrella.h */,
+				ED61E62A22F14F4B745D0EB127C43EBB /* Pods-GeoSDK_Example.debug.xcconfig */,
+				FB5D278CE9156BB6558D5F11238FE1E6 /* Pods-GeoSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-GeoSDK_Example";
+			path = "Target Support Files/Pods-GeoSDK_Example";
+			sourceTree = "<group>";
+		};
+		AEF45095313BE49238279CD0C715DCA0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA3D6D4F5BD708200DE787D6E244AC /* GeoSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9EA3D6D4F5BD708200DE787D6E244AC /* GeoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				72123823F1E6199FCC68F67BED08D42D /* ReplaceMe.m */,
+				10C04FE393F2B04B852B8B410C1AA270 /* Pod */,
+				7FB7BA23B6E34734B93E29EF62470055 /* Support Files */,
+			);
+			name = GeoSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C059FC4A33563CF71A5DD471396B2057 /* Pods-GeoSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1319C3EB180640C3853B3C74974E8CF5 /* Info.plist */,
+				6E0DD98B17BB8656F0EC08D3A9CAA3CE /* Pods-GeoSDK_Tests.modulemap */,
+				359F8DCE975A3CF4E591886F7DA7E800 /* Pods-GeoSDK_Tests-acknowledgements.markdown */,
+				B200DD4559869CCFFB3AC3A079EDA01B /* Pods-GeoSDK_Tests-acknowledgements.plist */,
+				8D627F0EFC173CCE92593B87DB6EBAFB /* Pods-GeoSDK_Tests-dummy.m */,
+				02413E5F8C49AEA66D4F6E64A4902A7A /* Pods-GeoSDK_Tests-frameworks.sh */,
+				D88D4B67ED0A5DBDF64597DA900905BB /* Pods-GeoSDK_Tests-resources.sh */,
+				14951E68C8992828E67C46A8B1CA162D /* Pods-GeoSDK_Tests-umbrella.h */,
+				FAFBED394FB323EC8E0321AD43C46B6B /* Pods-GeoSDK_Tests.debug.xcconfig */,
+				17B03F1B3B5141BB87492F1EAEAA9C35 /* Pods-GeoSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-GeoSDK_Tests";
+			path = "Target Support Files/Pods-GeoSDK_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6B80430FE3471B73D11943C21C8A972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1210048CA9E7C7E21FE74B40DEB90591 /* GeoSDK.framework */,
+				EE9AE86B6875E19A45FD7491585A43A1 /* Pods_GeoSDK_Example.framework */,
+				C1679F4365FA935C4315EDC2B85B75D5 /* Pods_GeoSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		048F6BDC3D5C892F8D8EE6497CC9D5B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CD9EF7D454552E302F8D29A3F461F1 /* GeoSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71FE74963A7EA99BE4D464591DC3D0CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB1675B5BEF02448DFDC8E05053D392 /* Pods-GeoSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A314364D757B46607120FD833B1E3321 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AF98EB35D647E9392E1F8DCCAB562E /* Pods-GeoSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38D455A1CBDFAE6014AA828828CDFF6F /* GeoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5931B6082E3B8BA5C47BA25DC0A052CB /* Build configuration list for PBXNativeTarget "GeoSDK" */;
+			buildPhases = (
+				E6E018D1696E2432363E5F636F827D48 /* Sources */,
+				C1C8A43AD3AF7A60B3E61ADC55BE7725 /* Frameworks */,
+				048F6BDC3D5C892F8D8EE6497CC9D5B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoSDK;
+			productName = GeoSDK;
+			productReference = 1210048CA9E7C7E21FE74B40DEB90591 /* GeoSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D954B6928A29B1716C068BF00726F8E /* Pods-GeoSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C7C9525FFA546245DF43E9AB9A5CFC /* Build configuration list for PBXNativeTarget "Pods-GeoSDK_Tests" */;
+			buildPhases = (
+				9F85B5891FC54F65E6DD449A5A0510E7 /* Sources */,
+				99F12D490F72D8A1EC3B04B44FC3BDAC /* Frameworks */,
+				A314364D757B46607120FD833B1E3321 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GeoSDK_Tests";
+			productName = "Pods-GeoSDK_Tests";
+			productReference = C1679F4365FA935C4315EDC2B85B75D5 /* Pods_GeoSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA91328C649A5CD13CD89596FBC54644 /* Pods-GeoSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CB1FAD202429C0A308B376F73B5BBB /* Build configuration list for PBXNativeTarget "Pods-GeoSDK_Example" */;
+			buildPhases = (
+				7EC51EC0A6C34E56D7550C296F87190E /* Sources */,
+				C989D6BEBDD022333C5D29761EB228D2 /* Frameworks */,
+				71FE74963A7EA99BE4D464591DC3D0CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				850C06C4130A62C7D94C4D36E64FDEE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoSDK_Example";
+			productName = "Pods-GeoSDK_Example";
+			productReference = EE9AE86B6875E19A45FD7491585A43A1 /* Pods_GeoSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D6B80430FE3471B73D11943C21C8A972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38D455A1CBDFAE6014AA828828CDFF6F /* GeoSDK */,
+				DA91328C649A5CD13CD89596FBC54644 /* Pods-GeoSDK_Example */,
+				3D954B6928A29B1716C068BF00726F8E /* Pods-GeoSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EC51EC0A6C34E56D7550C296F87190E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A105345971C958BAEE1A262942B99A46 /* Pods-GeoSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F85B5891FC54F65E6DD449A5A0510E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAAA01CAA51CCD7EE627C29842904A8 /* Pods-GeoSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E018D1696E2432363E5F636F827D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C620F2B9854A0672F24DA653AB289E /* GeoSDK-dummy.m in Sources */,
+				FBC014693997F18F0B21C1CBE2FD1DA2 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		850C06C4130A62C7D94C4D36E64FDEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GeoSDK;
+			target = 38D455A1CBDFAE6014AA828828CDFF6F /* GeoSDK */;
+			targetProxy = EAD39DC60D9011EF994CFD65D1ED8EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F5DAC6E6654D5116B2449D78ADF503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5D278CE9156BB6558D5F11238FE1E6 /* Pods-GeoSDK_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoSDK_Example/Pods-GeoSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E859305E246D9A6D8CEFC97F6AB858B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED61E62A22F14F4B745D0EB127C43EBB /* Pods-GeoSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoSDK_Example/Pods-GeoSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoSDK_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		98939D3F88F93EFE3ECBBCF66F315B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B5FC0EC432137F4AA34164EA29C11E /* GeoSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GeoSDK/GeoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoSDK/GeoSDK.modulemap";
+				PRODUCT_NAME = GeoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDEAE6410DB342EE8002E1091D8076FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAFBED394FB323EC8E0321AD43C46B6B /* Pods-GeoSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoSDK_Tests/Pods-GeoSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D559269B7067A63E82289903198DDDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B5FC0EC432137F4AA34164EA29C11E /* GeoSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GeoSDK/GeoSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GeoSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GeoSDK/GeoSDK.modulemap";
+				PRODUCT_NAME = GeoSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFE90B8006E04DACB4E464EC20DCD65A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B03F1B3B5141BB87492F1EAEAA9C35 /* Pods-GeoSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoSDK_Tests/Pods-GeoSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CB1FAD202429C0A308B376F73B5BBB /* Build configuration list for PBXNativeTarget "Pods-GeoSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E859305E246D9A6D8CEFC97F6AB858B /* Debug */,
+				03F5DAC6E6654D5116B2449D78ADF503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5931B6082E3B8BA5C47BA25DC0A052CB /* Build configuration list for PBXNativeTarget "GeoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D559269B7067A63E82289903198DDDBB /* Debug */,
+				98939D3F88F93EFE3ECBBCF66F315B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C7C9525FFA546245DF43E9AB9A5CFC /* Build configuration list for PBXNativeTarget "Pods-GeoSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAE6410DB342EE8002E1091D8076FE /* Debug */,
+				EFE90B8006E04DACB4E464EC20DCD65A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
