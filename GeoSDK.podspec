@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GeoSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GeoSDK.'
+  s.summary          = 'GeoSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'GeoSDK'
 
   s.homepage         = 'https://github.com/KevBrodigan/GeoSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,6 +29,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GeoSDK/Classes/**/*'
+
+  s.dependency 'SwrveSDKCommon', '5.2.0'
   
   # s.resource_bundles = {
   #   'GeoSDK' => ['GeoSDK/Assets/*.png']
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ 
 end
